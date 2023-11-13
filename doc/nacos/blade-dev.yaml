@@ -1,0 +1,60 @@
+#spring配置
+spring:
+  data:
+    # mongodb:
+    #   uri: mongodb://127.0.0.1/CoinExPro?maxpoolsize=1000&minpoolsize=500
+  redis:
+    ##redis 单机环境配置
+    host: 127.0.0.1
+    port: 16379
+    password: xxx
+    database: 0
+    ssl: false
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    druid:
+      # MySql、PostgreSQL、SqlServer校验
+      validation-query: select 1
+      # Oracle校验
+      #validation-query: select 1 from dual
+
+#项目模块集中配置
+blade:
+  #分布式锁配置
+  lock:
+    enabled: false
+    address: redis://127.0.0.1:6379
+  #多团队协作服务配置
+  ribbon:
+    rule:
+      #开启配置
+      enabled: true
+      #负载均衡优先调用的ip段
+      prior-ip-pattern:
+        - 192.168.0.*
+        - 127.0.0.1
+  #通用开发生产环境数据库地址(特殊情况可在对应的子工程里配置覆盖)
+  datasource:
+    dev:
+      # MySql mjkj_zhck_bk20220225
+      url: jdbc:mysql://localhost:3306/coinexpro_open?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&tinyInt1isBit=false&allowMultiQueries=true&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true
+      username: root
+      password: root
+    log:
+      # MySql mjkj_zhck_bk20220225
+      url: jdbc:mysql://127.0.0.1:33068/coinhouse_log?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&tinyInt1isBit=false&allowMultiQueries=true&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true
+      username: root
+      password: root
+knife4j:
+  #启用
+  enable: true
+
+#mqtt配置
+mqtt:
+  server:
+    ip: 0.0.0.0            # 服务端 ip 默认：0.0.0.0
+    port: 8828                  # 端口，默认：1883
+    websocket-port: 5883        # websocket 端口
+        
+

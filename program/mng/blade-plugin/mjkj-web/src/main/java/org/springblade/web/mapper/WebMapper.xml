@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.springblade.web.mapper.WebMapper">
+    <select id="getPayment" resultType="java.util.Map">
+        select a.id, a.country_id, a.pay_method_id,a.surname,a.name,a.account,a.bank,a.branch,a.qr_code, m.name memthod_name, m.icon, m.pay_methods_type
+        from coin_pay_account a left join coin_payment_member m on a.pay_method_id = m.id
+        where a.is_deleted = 0 and m.is_deleted = 0
+        and a.owner_id = #{id}
+    </select>
+
+
+    <select id="getMemberSum" resultType="java.util.Map">
+        SELECT IFNULL(SUM(hy), 0) AS hyrs, IFNULL(SUM(sy), 0) AS syrs FROM (
+            SELECT  CASE WHEN `level` = 1 THEN 1 ELSE 0 END hy,
+                    CASE WHEN `level` > 1 THEN 1 ELSE 0 END sy
+            FROM coin_member coin WHERE is_deleted = 0
+            <if test="level == 1">
+                AND pid = #{id}
+            </if>
+            <if test="level == 2">
+                AND pid != #{id} AND ancestors LIKE CONCAT('%', #{id}, '%') AND id != #{id}
+            </if>
+        ) a
+    </select>
+
+
+    <select id="getMemberProfit" resultType="java.util.Map">
+        SELECT SUM(p) AS profit FROM (
+            SELECT SUM(profit) p FROM coin_log_invite_brokerage
+            WHERE is_deleted = 0
+            AND member_id IN (
+                SELECT id FROM coin_member WHERE is_deleted = 0
+                <if test="type == 1">
+                    AND pid = #{id}
+                </if>
+                <if test="type == 2">
+                    AND pid != #{id} AND ancestors LIKE CONCAT('%', #{id}, '%') AND id != #{id}
+                </if>
+            )
+        ) a
+    </select>
+
+    <select id="getMemberCsyj" resultType="java.util.Map">
+        SELECT SUM(profit) yj
+        FROM coin_log_invite_brokerage
+        WHERE is_deleted = 0
+        AND member_id = #{id}
+    </select>
+</mapper>

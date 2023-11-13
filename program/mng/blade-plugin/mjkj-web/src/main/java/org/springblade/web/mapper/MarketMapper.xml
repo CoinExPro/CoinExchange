@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.springblade.web.mapper.MarketMapper">
+
+    <select id="getGoodsList" resultType="map">
+      SELECT
+            symbol.id,
+            coin.avatar,
+            symbol.symbol_name,
+            period.main_period as period_day,
+            profit.main_yield as profit_rate,
+            symbol.input_type,
+            profit.min_money,
+            exchange.base_coin_id,
+            exchange.base_symbol,
+            exchange.coin_coin_id,
+            exchange.coin_symbol
+        FROM
+            coin_market_symbol symbol
+            INNER JOIN coin_market_period period on symbol.main_period =period.id
+            INNER JOIN coin_coin_exchange exchange on symbol.coin_exchange_id =exchange.id
+            INNER JOIN coin_coin coin on exchange.coin_coin_id =coin.id
+            INNER JOIN coin_market_symbol_profit profit on symbol.id = profit.market_id and profit.level = #{level}
+            where symbol.is_deleted=0 and symbol.main_state=1
+            order by symbol.coin_exchange_id asc,(period.main_period+0) asc
+  </select>
+
+    <select id="getMyTotalInvitereward" resultType="BigDecimal">
+        SELECT
+            sum(reward_balance)
+        FROM
+            coin_log_invite_reward
+            where member_id =#{memberId}
+            and is_deleted=0
+        <if test="type != null and type !='' and type=='year'">
+            and DATE_FORMAT(reward_time,'%Y') =#{time}
+        </if>
+        <if test="type != null and type !='' and type=='month'">
+            and DATE_FORMAT(reward_time,'%Y-%m') =#{time}
+        </if>
+        <if test="type != null and type !='' and type=='yesterday'">
+            and DATE_FORMAT(reward_time,'%Y-%m-%d') =#{time}
+        </if>
+    </select>
+    <select id="getExchangeDetailList" resultType="org.springblade.web.model.ContractTrade">
+        SELECT
+            ex.symbol_name,
+            detail.buy_price as price,
+            detail.amount,
+            detail.create_time
+        FROM
+            coin_log_exchange_detail detail
+                INNER JOIN coin_log_exchange ex on detail.buy_log_exchange_id =ex.id
+        where detail.is_deleted =0
+          and ex.symbol_name =#{symbolName}
+        order by detail.create_time desc,(detail.id+0) desc
+            limit 20
+    </select>
+
+</mapper>

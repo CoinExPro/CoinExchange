@@ -1,0 +1,62 @@
+// 全局变量
+// @import './variables.scss';
+// ele样式覆盖
+@import "./element-ui.scss";
+// 顶部右侧显示
+// @import './top.scss';
+// 导航标签
+// @import './tags.scss';
+// 工具类函数
+@import "./mixin.scss";
+// 动画
+@import "./animate/vue-transition.scss";
+//主题
+@import "./theme/index.scss";
+//适配
+// @import './media.scss';
+//通用配置
+@import "./normalize.scss";
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+* {
+  outline: none;
+}
+.flex-box {
+  display: flex;
+  align-items: center;
+}
+.box-line {
+  background-color: rgba(123, 123, 147, 0.16);
+}
+.border-bottom-line__second {
+  border-bottom: 1px solid rgba(123, 123, 147, 0.16);
+}
+.fit-tc-fall { 
+  color: #db3a35 !important;
+  border-color:#db3a35 !important;
+}
+.fit-tc-rise {
+  color: #22a87b !important;
+  border-color:#22a87b !important;
+}
+.fit-tc-fall-bg{
+  background-color: #db3a35;
+}
+.fit-tc-rise-bg {
+  background-color:#22a87b;
+}
+.fit-success {
+  color: #0d8665
+}
+.fit-fall{
+  color: #e0443f;
+}
+.fit-warn{
+  color: #d17831
+}
+
+//滚动条样式
+@include scrollBar;

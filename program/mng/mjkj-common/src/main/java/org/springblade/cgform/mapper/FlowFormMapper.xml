@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.springblade.cgform.mapper.FlowFormMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="flowFormResultMap" type="org.springblade.cgform.entity.FlowForm">
+        <result column="id" property="id"/>
+        <result column="create_time" property="createTime"/>
+        <result column="process_definition_id" property="processDefinitionId"/>
+        <result column="process_instance_id" property="processInstanceId"/>
+        <result column="resource_id" property="resourceId"/>
+        <result column="desform_data_id" property="desformDataId"/>
+    </resultMap>
+
+
+    <select id="selectFlowFormPage" resultMap="flowFormResultMap">
+        select * from blade_flow_form where is_deleted = 0
+    </select>
+
+</mapper>

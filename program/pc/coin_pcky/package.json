@@ -1,0 +1,52 @@
+{
+  "name": "initxm",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "classlist-polyfill": "^1.2.0",
+    "compression-webpack-plugin": "^5.0.0",
+    "core-js": "^3.6.5",
+    "countup.js": "^2.2.0",
+    "crypto-js": "^4.1.1",
+    "echarts": "^5.3.2",
+    "element-resize-detector": "^1.2.4",
+    "element-ui": "^2.15.6",
+    "fingerprintjs2": "^2.1.4",
+    "jquery": "^3.3.1",
+    "js-base64": "^3.7.2",
+    "js-cookie": "^3.0.1",
+    "js-md5": "^0.7.3",
+    "mqtt": "^4.3.7",
+    "node-gyp": "^5.0.6",
+    "nprogress": "^0.2.0",
+    "qrcodejs2": "0.0.2",
+    "swiper": "^5.4.5",
+    "vue": "^2.6.10",
+    "vue-axios": "^2.1.2",
+    "vue-countup-v2": "^4.0.0",
+    "vue-i18n": "^8.7.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.17",
+    "@vue/cli-plugin-eslint": "~4.5.17",
+    "@vue/cli-plugin-router": "~4.5.17",
+    "@vue/cli-plugin-vuex": "~4.5.17",
+    "@vue/cli-service": "~4.5.17",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "terser-webpack-plugin": "^4.2.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

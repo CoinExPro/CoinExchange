@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.springblade.web.mapper.WalletMapper">
+
+
+
+    <update id="addWalletStop">
+          update coin_member_wallet_spot set balance=balance+#{balance},update_time =now()
+        where id =#{id}
+    </update>
+    <update id="addFrozenWalletStop">
+        update coin_member_wallet_spot set balance=balance-#{frozenBalance},frozen_balance =frozen_balance+#{frozenBalance},update_time =now()
+        where id =#{id}
+    </update>
+    <update id="subFrozenWalletStop">
+        update coin_member_wallet_spot set balance=balance+#{frozenBalance},frozen_balance =frozen_balance-#{frozenBalance},update_time =now()
+        where id =#{id}
+    </update>
+    <update id="removeFrozenWalletStop">
+        update coin_member_wallet_spot set frozen_balance =frozen_balance-#{frozenBalance},update_time =now()
+        where id =#{id}
+    </update>
+
+    <update id="addWallet">
+        update coin_member_wallet set balance=balance+#{balance},update_time =now()
+        where id =#{id}
+    </update>
+    <update id="addFrozenWallet">
+        update coin_member_wallet set balance=balance-#{frozenBalance},frozen_balance =frozen_balance+#{frozenBalance},update_time =now()
+        where id =#{id}
+    </update>
+    <update id="subFrozenWallet">
+        update coin_member_wallet set balance=balance+#{frozenBalance},frozen_balance =frozen_balance-#{frozenBalance},update_time =now()
+        where id =#{id}
+    </update>
+    <update id="removeFrozenWallet">
+        update coin_member_wallet set frozen_balance =frozen_balance-#{frozenBalance},update_time =now()
+        where id =#{id}
+    </update>
+
+</mapper>

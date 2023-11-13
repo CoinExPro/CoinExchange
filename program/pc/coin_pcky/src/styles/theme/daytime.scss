@@ -1,0 +1,683 @@
+//
+$textColorHover: #2954cc;
+$textColor: #0d1324;
+$propverColor: #fff;
+$propverColorHover: #f5f6fa;
+$primaryColor: #10171f;
+$itemHover: #0020FD;
+$tertiaryColor: #7e92a6;
+$titleColor: #4e6073;
+
+.theme-daytime {
+  #app {
+    background-color: $propverColor;
+  }
+
+  .coin-main {
+    background-color: $propverColor;
+  }
+
+  .text-buy {
+    color: #32a678 !important;
+  }
+
+  .text-sell {
+    color: #cc3b31 !important;
+  }
+
+  .fit-fall {
+    color: #e0443f !important;
+  }
+
+  .a-theme {
+    color: #2954cc;
+  }
+
+  .fit-tc-tip {
+    color: $titleColor;
+
+    &.fit-tabs {
+      .el-tabs {
+        .el-tabs__item {
+          color: $titleColor;
+
+          .el-dropdown-link {
+            color: $titleColor;
+          }
+
+          &:hover {
+            color: $titleColor;
+          }
+        }
+
+        .el-tabs__item.is-active {
+          color: #2954cc;
+
+          .el-dropdown-link {
+            color: #2954cc;
+          }
+
+          &::after {
+            background-color: #2954cc;
+          }
+        }
+      }
+    }
+
+    &.active-tip {
+      color: $primaryColor;
+    }
+  }
+
+  .fit-tc-tertiary {
+    color: $tertiaryColor;
+
+    &.active-text {
+      color: $textColorHover;
+
+      &.border-color {
+        border-color: $textColorHover;
+      }
+    }
+
+    &.hover-text:hover {
+      color: $textColorHover;
+    }
+
+    &.title {
+      color: $titleColor;
+    }
+
+    &.is-disabled:hover {
+      color: $tertiaryColor;
+    }
+
+    &.avtive-bg {
+      background-color: $textColorHover;
+      color: $propverColor;
+    }
+
+    &.border-color {
+      border-color: #eff0f2;
+
+      &.avtive-bg {
+        border-color: #eff0f2;
+      }
+    }
+  }
+
+  .fit-tc-primary {
+    color: $primaryColor;
+
+    &.active-text {
+      color: $textColorHover;
+
+      &::after {
+        background-color: $textColorHover;
+      }
+    }
+
+    &.hover-text:hover {
+      color: $textColorHover;
+    }
+
+    &.border-color {
+      border-color: $tertiaryColor;
+    }
+  }
+
+  .fit-tc-button {
+    color: #f5faff;
+  }
+
+  .fit-tc-border-color {
+    border-color: #eff0f2 !important;
+
+    &.el-table-border-color {
+      .el-tabs {
+        .el-tabs__nav-wrap::after {
+          background-color: #eff0f2;
+        }
+      }
+    }
+  }
+
+  .fit-ta-border-color {
+    border-color: #f5f6fa !important;
+  }
+
+  .fit-tc-hover {
+    &:hover {
+      background-color: $propverColorHover;
+
+      .fit-tc-tip.hover {
+        color: $textColorHover;
+      }
+    }
+
+    &.hover {
+      background-color: $propverColorHover;
+    }
+  }
+
+  .fit-tc-background {
+    background-color: $propverColor;
+
+    &.el-button {
+      background-color: $propverColorHover;
+    }
+
+    .fit-tc-tip.bg-active {
+      background-color: #fff;
+      color: #10171f;
+    }
+
+    &.border-color {
+      border-color: #d8dfeb !important;
+    }
+  }
+
+  .fit-background {
+    background-color: $propverColor;
+
+    .el-table {
+      background-color: $propverColor;
+      color: $primaryColor;
+      .el-table__header-wrapper {
+        color: $tertiaryColor;
+        th {
+          border-color: #eff0f2;
+        }
+      }
+      .el-table__fixed-header-wrapper{
+        color: $tertiaryColor;
+        th {
+          border-color: #eff0f2;
+        }
+      }
+      tr {
+        background-color: $propverColor;
+        td {
+          border-color: #eff0f2;
+        }
+      }
+      th {
+        background-color: $propverColor;
+      }
+      .el-table__body tr.current-row>td,
+      .el-table__body tr.hover-row.current-row>td,
+      .el-table__body tr.hover-row.el-table__row--striped.current-row>td,
+      .el-table__body tr.hover-row.el-table__row--striped>td,
+      .el-table__body tr.hover-row>td,
+      .el-table__body tr:hover>td {
+        background-color: $propverColorHover;
+      }
+
+      &::before {
+        background-color: #eff0f2;
+      }
+    }
+
+    &.el-input-bg {
+      .el-input__inner {
+        background-color: $propverColor;
+
+      }
+    }
+
+    &.el-btn {
+      .el-button:hover {
+        background-color: $propverColor;
+      }
+    }
+  }
+
+  .fit-background-di {
+    background-color: $propverColorHover;
+
+    .fit-tc-tip.bg-active {
+      background-color: #fff;
+      color: #10171f;
+    }
+    .active-tab-bg{
+      background-color: #fff;
+    } 
+
+    &.el-input-bg {
+      .el-input__inner {
+        background-color: $propverColorHover;
+      }
+    }
+
+    &.bg-hover {
+      &:hover {
+        color: #0020FD;
+        background-color: #ebf3ff;
+      }
+
+      &.active {
+        background-color: #0020FD;
+        color: #f5faff;
+      }
+    }
+  }
+
+  /* 头部 底部样式 */
+  .coin-top {
+    background-color: #fff;
+
+    .item-title {
+      color: $textColor;
+
+      &:hover {
+        color: $textColorHover;
+      }
+    }
+
+    .top-operation {
+      .operat-item {
+        color: $textColor;
+
+        &:hover {
+          color: $textColorHover;
+        }
+      }
+
+      .operat-register {
+        color: $propverColor;
+        background-color: $itemHover;
+
+        &:hover {
+          background-color: #1e64cc;
+        }
+      }
+    }
+  }
+
+  .coin-top.daytime {
+    background-color: #0d1324;
+
+
+    .item-title {
+      color: $textColor;
+
+      &:hover {
+        color: $itemHover;
+      }
+    }
+
+    .top-operation {
+      .operat-item {
+        color: $tertiaryColor;
+
+        &:hover {
+          color: $itemHover;
+        }
+      }
+
+      .operat-register {
+        background-color: $itemHover;
+        color: $propverColor;
+
+        &:hover {
+          background-color: #3a7ee6;
+          color: #fff;
+        }
+      }
+    }
+
+    .fit-tc-tip {
+      color: #9bb4cc;
+    }
+
+    .fit-tc-tertiary {
+      color: #688199;
+
+      &.active-text {
+        color: #0020FD;
+      }
+
+      &.hover-text:hover {
+        color: #0020FD;
+      }
+
+      &.is-disabled:hover {
+        color: #688199;
+      }
+    }
+
+    .fit-tc-primary {
+      color: #dde3e6;
+
+      &.active-text {
+        color: #0020FD;
+
+        &::after {
+          background-color: #0020FD;
+        }
+      }
+
+      &.hover-text:hover {
+        color: #0020FD;
+      }
+
+      &.border-color {
+        border-color: #688199;
+      }
+    }
+  }
+
+  .bottom-footer {
+    background-color: $propverColor;
+    color: #10171f;
+
+    .child-text {
+      &:hover {
+        color: $textColorHover;
+      }
+    }
+
+    .platform-item {
+      color: $textColor;
+
+      &:hover {
+        color: $textColorHover;
+      }
+    }
+  }
+
+  .common-propver {
+    background-color: $propverColor;
+    border-color: $propverColor;
+  }
+
+  .menu-child-popover {
+    .child-icon {
+      i {
+        color: $textColorHover;
+      }
+    }
+
+    .child-content {
+      h3 {
+        color: #10171f;
+      }
+
+      p {
+        color: #4e6073;
+      }
+    }
+
+    .menu-child-item {
+      &:hover {
+        background-color: $propverColorHover;
+      }
+    }
+  }
+
+  .dialog-switch-lang {
+    .box-tabs {
+      border-color: rgba(123, 123, 147, 0.16);
+    }
+
+    .box-tabs-item {
+      color: #4e6073;
+
+      &:hover {
+        color: $itemHover;
+      }
+
+      &.active {
+        color: $textColorHover;
+
+        &::after {
+          background-color: $textColorHover;
+        }
+      }
+    }
+
+    .lang-item {
+      color: #10171f;
+
+      &.active {
+        color: $textColorHover;
+        background-color: #f5f6fa;
+      }
+    }
+  }
+
+  /* 头部 底部样式end */
+
+  /* home/index.vue */
+  .home-index-content {
+    .home-banner {
+      background: linear-gradient(0deg, #f6f6f6, #f6f6f6);
+    }
+
+    .register-tips {
+      background-color: $propverColor;
+      color: $textColorHover;
+    }
+
+    .register-input {
+      .el-input__inner {
+        border-color: $itemHover  !important;
+      }
+    }
+
+    .el-input__prefix {
+      ::after {
+        background-color: #d8dfeb;
+      }
+    }
+
+    .before-box {
+      .input-txt-box {
+        border-color: $textColorHover  !important;
+        color: $primaryColor;
+      }
+
+      i {
+        color: $primaryColor;
+      }
+    }
+
+    .home-info {
+      .more {
+        color: $textColorHover;
+      }
+
+      p {
+        color: #4e6073;
+      }
+    }
+
+    .market-container {
+      .market-title {
+        border-color: #eff0f2 !important;
+      }
+
+      .market-nav {
+        li {
+          color: $titleColor;
+
+          &.active {
+            color: $textColorHover;
+
+            &::after {
+              background-color: $textColorHover;
+            }
+          }
+        }
+      }
+
+      .market-table {
+        .el-table {
+          background-color: $propverColor;
+
+          .el-table__header-wrapper {
+            thead {
+              color: $tertiaryColor  !important;
+            }
+          }
+
+          .el-table__body-wrapper {
+            .el-table__body {
+              tr:hover {
+                td {
+                  background: $propverColorHover;
+                }
+              }
+
+              .amount-btn {
+                color: $textColorHover;
+                border-color: #eff0f2;
+
+                &:hover {
+                  color: $textColorHover;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .market-more {
+        color: $textColorHover;
+      }
+    }
+
+    .school-conatiner {
+      .more {
+        color: $textColorHover;
+      }
+
+      .school-list {
+        li {
+          background-color: $propverColorHover;
+
+          h3 {
+            color: $primaryColor;
+          }
+
+          .tag-txt {
+            color: $primaryColor;
+
+            &::before {
+              background-color: $primaryColor;
+            }
+          }
+        }
+      }
+
+      .school-wrap-cont {
+        .swiper-slide {
+          background-color: $propverColor;
+
+          h3 {
+            color: $primaryColor;
+          }
+
+          p {
+            color: $primaryColor;
+          }
+        }
+      }
+    }
+  }
+
+  .phone-area-code-popper {
+    background-color: $propverColor;
+    box-shadow: 0 16px 48px -8px rgba(56, 58, 108, 0.24);
+
+    .search-box {
+      background-color: $propverColor;
+    }
+  }
+
+  .swiper-pagination-bullet {
+    background-color: #ebf3ff;
+
+    &.swiper-pagination-bullet-active {
+      background: #2954cc;
+    }
+  }
+
+  /* home/index.vue end*/
+  /* article/index.vue */
+  .article-text {
+    color: $primaryColor;
+
+    &:hover {
+      color: $itemHover;
+    }
+  }
+
+  .article-background {
+    background-color: #fff;
+    border: 1px solid $itemHover;
+
+    &:hover {
+      color: $propverColor;
+      background-color: $itemHover;
+    }
+
+    &.active {
+      color: $propverColor;
+      background-color: $itemHover;
+    }
+  }
+
+  .article-tip {
+    color: #666;
+  }
+
+  .article-more {
+    color: $itemHover;
+  }
+
+  .article-border {
+    border-bottom: 1px solid #ddd;
+  }
+
+  .article-page {
+    li {
+      color: $textColor;
+
+      &.active {
+        color: $itemHover;
+      }
+    }
+  }
+
+  /* article/index.vue */
+
+  /* user */
+  .login-box {
+    .before-box {
+      &:after {
+        background-color: #d8dfeb;
+      }
+    }
+  }
+
+  /* user end */
+
+  .fit-error {
+    color: #db2c49;
+  }
+
+
+  .fit-background-select {
+    &.el-select-dropdown {
+      .el-select-dropdown__item {
+        color: $primaryColor;
+
+        &.selected {
+          color: #409EFF;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,716 @@
+// 黑夜模式
+$textColorHover: #0020FD;
+$textColor: #fff;
+$propverColor: #1f2733;
+$propverColorHover: #151d29;
+$primaryColor: #dde3e6;
+$tertiaryColor: #688199;
+$titleColor: #9bb4cc;
+$backColor: #0d1324;
+$errorColor: #f5566f;
+
+.theme-night {
+  #app {
+    background-color: $backColor;
+  }
+
+  .coin-main {
+    // background-color: $backColor;
+
+    .newhome-box {
+      .newhome-banner-box {
+        background: linear-gradient(to right, #001CB7, #041763);
+      }
+    }
+
+    .newhome-news-box {
+      .news-top-box {
+        background-color: #333333;
+        margin-top: 0;
+
+        .top-title {
+          color: white;
+        }
+
+        .flex-box {
+          color: white;
+        }
+      }
+    }
+
+    .newhome-introduce-bg {
+      background: linear-gradient(45deg, #001CB7, #08164E);
+    }
+
+    .newhome-deal {
+      .deal-content {
+        .content-download {
+          .download-util {
+            .ewm-box {
+              background-color: #1F2225;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .coin-foot {
+    .newbottom-footer {
+      background-color: #0C1117;
+      color: white;
+    }
+  }
+
+  .text-buy {
+    color: #4ec293 !important;
+  }
+
+  .text-sell {
+    color: #d65f4d !important;
+  }
+
+  .fit-fall {
+    color: #db5046 !important;
+  }
+
+  .a-theme {
+    color: #0020FD;
+  }
+
+
+  .fit-tc-tip {
+    color: $titleColor;
+
+    &.fit-tabs {
+      .el-tabs {
+        .el-tabs__item {
+          color: $titleColor;
+
+          .el-dropdown-link {
+            color: $titleColor;
+          }
+
+          &:hover {
+            color: $titleColor;
+          }
+        }
+
+        .el-tabs__item.is-active {
+          color: #0020FD;
+
+          .el-dropdown-link {
+            color: #0020FD;
+          }
+
+          &::after {
+            background-color: #0020FD;
+          }
+
+        }
+      }
+    }
+
+    &.active-tip {
+      color: $primaryColor;
+    }
+  }
+
+  .fit-tc-tertiary {
+    color: $tertiaryColor;
+
+    &.active-text {
+      color: $textColorHover;
+
+      &.border-color {
+        border-color: $textColorHover;
+      }
+    }
+
+    &.hover-text:hover {
+      color: $textColorHover;
+    }
+
+    &.is-disabled:hover {
+      color: $tertiaryColor;
+    }
+
+    &.avtive-bg {
+      background-color: $textColorHover;
+      color: $propverColor;
+    }
+
+    &.border-color {
+      border-color: #262d38;
+
+      &.avtive-bg {
+        border-color: #262d38;
+      }
+    }
+  }
+
+  .fit-tc-primary {
+    color: $primaryColor;
+
+    &.active-text {
+      color: $textColorHover;
+
+      &::after {
+        background-color: $textColorHover;
+      }
+    }
+
+    &.hover-text:hover {
+      color: $textColorHover;
+    }
+
+    &.border-color {
+      border-color: $tertiaryColor;
+    }
+  }
+
+  .fit-tc-button {
+    color: #f5faff;
+  }
+
+  .fit-tc-border-color {
+    border-color: #262d38 !important;
+
+    &.el-table-border-color {
+      .el-tabs {
+        .el-tabs__nav-wrap::after {
+          background-color: #262d38;
+        }
+      }
+    }
+  }
+
+  .fit-ta-border-color {
+    border-color: #151d29 !important;
+  }
+
+  .fit-tc-hover {
+    &:hover {
+      background-color: $propverColorHover;
+
+      .fit-tc-tip.hover {
+        color: $textColorHover;
+      }
+    }
+
+    &.hover {
+      background-color: $propverColorHover;
+    }
+  }
+
+  .fit-tc-background {
+    background-color: $propverColor;
+
+    .fit-tc-tip.bg-active {
+      background-color: #2e3847;
+      color: #f5faff;
+    }
+
+    &.border-color {
+      border-color: #384252 !important;
+    }
+  }
+
+  .fit-background {
+    background-color: $backColor;
+
+    .el-table {
+      background-color: $backColor;
+      color: #f5faff;
+
+      .el-table__header-wrapper {
+        color: $tertiaryColor;
+
+        th {
+          border-color: #262d38;
+        }
+      }
+
+      .el-table__fixed-header-wrapper {
+        color: $tertiaryColor;
+
+        th {
+          border-color: #262d38;
+        }
+      }
+
+      tr {
+        background-color: $backColor;
+
+        td {
+          border-color: #262d38;
+        }
+      }
+
+      th {
+        background-color: $backColor;
+      }
+
+      .el-table__body tr.current-row>td,
+      .el-table__body tr.hover-row.current-row>td,
+      .el-table__body tr.hover-row.el-table__row--striped.current-row>td,
+      .el-table__body tr.hover-row.el-table__row--striped>td,
+      .el-table__body tr.hover-row>td,
+      .el-table__body tr:hover>td {
+        background-color: $propverColorHover;
+      }
+
+      &::before {
+        background-color: #262d38;
+      }
+    }
+
+    &.login-content {
+      background-color: #2f3742;
+    }
+
+    &.el-input-bg {
+      .el-input__inner {
+        background-color: $backColor;
+
+      }
+    }
+
+    &.el-btn {
+      .el-button:hover {
+        background-color: $backColor;
+      }
+    }
+  }
+
+  .fit-background-di {
+    background-color: $propverColorHover;
+
+    .fit-tc-tip.bg-active {
+      background-color: #2e3847;
+      color: #f5faff;
+    }
+
+    .active-tab-bg {
+      background-color: #2e3847;
+    }
+
+    &.el-input-bg {
+      .el-input__inner {
+        background-color: $propverColorHover;
+      }
+    }
+
+    &.bg-hover {
+      &:hover {
+        color: #0020FD;
+        background-color: #384252;
+      }
+
+      &.active {
+        background-color: #0020FD;
+        color: #f5faff;
+      }
+    }
+
+  }
+
+  /* 头部 底部样式 */
+  .coin-top {
+    background-color: $backColor !important;
+    border: none !important;
+
+    .item-title {
+      color: $textColor;
+
+      &:hover {
+        color: $textColorHover;
+      }
+    }
+
+    .top-operation {
+      .operat-item {
+        color: #f5faff;
+
+        &:hover {
+          color: $textColorHover;
+        }
+      }
+
+      .operat-register {
+        background-color: $textColorHover;
+
+        &:hover {
+          background-color: #3a7ee6;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .bottom-footer {
+    background-color: $backColor;
+    color: $primaryColor;
+
+    .child-text {
+      &:hover {
+        color: $textColorHover;
+      }
+    }
+
+    .platform-item {
+      color: $textColor;
+
+      &:hover {
+        color: $textColorHover;
+      }
+    }
+  }
+
+  .common-propver {
+    background-color: $propverColor;
+    border-color: $propverColor;
+  }
+
+  .menu-child-popover {
+    .child-icon {
+      i {
+        color: $textColorHover;
+      }
+    }
+
+    .child-content {
+      h3 {
+        color: $primaryColor;
+      }
+
+      p {
+        color: $titleColor;
+      }
+    }
+
+    .menu-child-item {
+      &:hover {
+        background-color: $propverColorHover;
+      }
+    }
+  }
+
+  .dialog-switch-lang {
+    .box-tabs {
+      border-color: rgba(123, 123, 147, 0.16);
+    }
+
+    .box-tabs-item {
+      color: $titleColor;
+
+      &:hover {
+        color: $textColorHover;
+      }
+
+      &.active {
+        color: $textColorHover;
+
+        &::after {
+          background-color: $textColorHover;
+        }
+      }
+    }
+
+    .lang-item {
+      color: $primaryColor;
+
+      &.active {
+        color: $textColorHover;
+        background-color: $propverColorHover;
+      }
+    }
+  }
+
+  /* 头部 底部样式end */
+
+  /* home/index.vue */
+  .home-index-content {
+    background-color: $backColor;
+
+    .home-banner {
+      background: linear-gradient(0deg, #131627, $backColor);
+    }
+
+    .register-tips {
+      background: linear-gradient(0deg, #131627, $backColor);
+      color: $textColorHover;
+    }
+
+    .register-input {
+      background: linear-gradient(0deg, #131627, $backColor);
+
+      .el-input__inner {
+        border-color: $textColorHover !important;
+      }
+    }
+
+    .el-input__prefix {
+      ::after {
+        background-color: #384252;
+      }
+    }
+
+    .before-box {
+      .input-txt-box {
+        border-color: $textColorHover !important;
+        color: $primaryColor;
+      }
+
+      i {
+        color: $primaryColor;
+      }
+    }
+
+    .home-info {
+      .more {
+        color: $textColorHover;
+      }
+
+      p {
+        color: $titleColor;
+      }
+    }
+
+    .market-container {
+      .market-title {
+        border-color: #262d38 !important;
+      }
+
+      .market-nav {
+        li {
+          color: $titleColor;
+
+          &.active {
+            color: $textColorHover;
+
+            &::after {
+              background-color: $textColorHover;
+            }
+          }
+        }
+      }
+
+      .market-table {
+        .el-table {
+          background-color: $backColor;
+
+          .el-table__header-wrapper {
+            thead {
+              color: $tertiaryColor !important;
+            }
+          }
+
+          .el-table__body-wrapper {
+            .el-table__body {
+              tr:hover {
+                td {
+                  background: $propverColorHover;
+                }
+              }
+
+              .amount-btn {
+                color: $textColorHover;
+                border-color: #262d38;
+
+                &:hover {
+                  color: $textColorHover;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .market-more {
+        color: $textColorHover;
+      }
+    }
+
+    .school-conatiner {
+      .more {
+        color: $textColorHover;
+      }
+
+      .school-list {
+        li {
+          background-color: $propverColorHover;
+
+          h3 {
+            color: $primaryColor;
+          }
+
+          .tag-txt {
+            color: $primaryColor;
+
+            &::before {
+              background-color: $primaryColor;
+            }
+          }
+        }
+      }
+
+      .school-wrap-cont {
+        .swiper-slide {
+          background-color: $backColor;
+
+          h3 {
+            color: $primaryColor;
+          }
+
+          p {
+            color: $primaryColor;
+          }
+        }
+      }
+    }
+
+    .download-container {}
+  }
+
+  .phone-area-code-popper {
+    background-color: $backColor;
+    box-shadow: 0 2px 12px -2px rgba(255, 255, 255, 0.16);
+
+    .search-box {
+      background-color: $backColor;
+    }
+  }
+
+  .swiper-pagination-bullet {
+    background-color: #384252;
+
+    &.swiper-pagination-bullet-active {
+      background: #2954cc;
+    }
+  }
+
+  /* home/index.vue end*/
+  /* article/index.vue */
+  .article-index-hero {
+    .hero-top-search {
+      input {
+        border-color: $textColorHover;
+        color: $textColor;
+      }
+    }
+
+    .hero-recommend {
+      color: $textColor;
+    }
+  }
+
+  .article-text {
+    color: $textColor;
+
+    &:hover {
+      color: $textColorHover;
+    }
+  }
+
+  .article-background {
+    &.null-background {
+      background-color: transparent;
+    }
+
+    background-color: $textColorHover;
+    border: 1px solid $textColorHover;
+    color: $textColor;
+
+    &:hover {
+      color: #f5faff;
+      background-color: #3776d4;
+    }
+
+    &.active {
+      color: $propverColor;
+      background-color: $itemHover;
+    }
+  }
+
+  .article-tip {
+    color: #688199;
+  }
+
+  .article-more {
+    color: $textColorHover;
+  }
+
+  .article-border {
+    border-bottom: 1px solid #262d38;
+  }
+
+  .article-page {
+    li {
+      background-color: $backColor;
+      color: $textColor;
+
+      &.active {
+        color: $textColorHover;
+      }
+
+      &:hover {
+        color: $textColorHover;
+      }
+    }
+
+    button {
+      background-color: $backColor;
+      color: $textColor;
+    }
+  }
+
+  /* article/index.vue */
+  /* user */
+  .login-box {
+    .before-box {
+      &:after {
+        background-color: #384252;
+      }
+    }
+  }
+
+  /* user end */
+  .fit-error {
+    color: $errorColor;
+  }
+
+  .fit-background-select {
+    border: 1px solid #262d38;
+
+    &.el-select-dropdown {
+      background-color: $propverColorHover;
+
+      .el-select-dropdown__item {
+        color: $primaryColor;
+
+        &.selected {
+          background-color: #384252 !important;
+          font-weight: 700;
+        }
+
+        &.hover {
+          background-color: #384252 !important;
+
+        }
+
+      }
+
+    }
+
+    .popper__arrow {
+      border-bottom-color: rgba(123, 123, 147, .24);
+      border-top-color: rgba(123, 123, 147, .24);
+
+      &::after {
+        border-bottom-color: #151d29;
+        border-top-color: #151d29;
+      }
+    }
+  }
+}
