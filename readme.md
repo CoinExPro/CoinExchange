@@ -93,13 +93,15 @@
 ### 2.5U本位永续合约(白天黑夜)
 
  <div align=left>
-    <td ><img height="" width="" src="/images/pc6.jpg"/></td>
+    <td ><img height="" width="" src="/images/pc7.png"/></td>
+     <td ><img height="" width="" src="/images/pc8.png"/></td>
  </div>
 
-### 2.6成为商家
+### 2.6成为商家(白天黑夜)
 
  <div align=left>
-    <td ><img height="" width="" src="/images/pc7.jpg"/></td>
+    <td ><img height="" width="" src="/images/pc9.png"/></td>
+         <td ><img height="" width="" src="/images/pc10.png"/></td>
  </div>
 
 ### 2.7账户资产
