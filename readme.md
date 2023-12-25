@@ -74,24 +74,14 @@
 
 ### 2.1首页
 
+白天黑夜双模式：首页、新闻推送、市场行情、CoinExPro学院等
+
 <table>
     <tr>
         <td><img src="/images/ct1.png"/></td>
        	<td><img src="/images/ct2.png"/></td>
     </tr>
 </table>
-
-### 2.2市场页
-
- <div align=left>
-    <td ><img height="" width="" src="/images/pc2.jpg"/></td>
- </div>
-
-### 2.3实时行情
-
- <div align=left>
-    <td ><img height="" width="" src="/images/pc4.jpg"/></td>
- </div>
 
 ### 2.4现货交易
 
