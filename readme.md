@@ -341,7 +341,7 @@
 
 <table>
     <tr>
-        <td ><img src="/images/qd5.png"/></td>
+        <td ><img src="/images/pd5.png"/></td>
     </tr>
 </table>
 
