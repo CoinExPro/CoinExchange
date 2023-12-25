@@ -56,7 +56,6 @@
        	<td><img src="/images/app2.jpg"/></td>
         <td><img src="/images/app3.jpg"/></td>
         <td><img src="/images/app4.jpg"/></td>
-        <td><img src="/images/app5.jpg"/></td>
     </tr>
 </table>
 
@@ -66,7 +65,6 @@
        	<td><img src="/images/app7.jpg"/></td>
         <td><img src="/images/app8.jpg"/></td>
         <td><img src="/images/app9.jpg"/></td>
-        <td><img src="/images/app10.jpg"/></td>
     </tr>
 </table>
 
@@ -76,9 +74,12 @@
 
 ### 2.1首页
 
- <div align=left>
-    <td ><img height="" width="" src="/images/pc1.jpg"/></td>
- </div>
+<table>
+    <tr>
+        <td><img src="/images/ct1.png"/></td>
+       	<td><img src="/images/ct2.png"/></td>
+    </tr>
+</table>
 
 ### 2.2市场页
 
@@ -347,7 +348,7 @@
 
 <table>
     <tr>
-        <td ><img src="/images/qd5.jpg"/></td>
+        <td ><img src="/images/qd5.png"/></td>
     </tr>
 </table>
 
