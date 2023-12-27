@@ -88,15 +88,6 @@
     </tr>
 </table>
 
-英文版：
-
-<table>
-    <tr>
-        <td><img src="/images/ctyw2.jpeg"/></td>
-        <td><img src="/images/ctyw1.jpeg"/></td>
-    </tr>
-</table>
-
 ### 2.4现货交易(白天黑夜)
 
  <div align=left>
