@@ -78,13 +78,13 @@
 
 <table>
     <tr>
-        <td><img src="/images/ct2.jpeg"/></td>
+        <td><img src="/images/ct1.jpeg"/></td>
     </tr>
 </table>
 
 <table>
     <tr>
-        <td><img src="/images/ct1.jpeg"/></td>
+        <td><img src="/images/ct2.jpeg"/></td>
     </tr>
 </table>
 
