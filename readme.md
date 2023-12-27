@@ -78,8 +78,7 @@
 
 <table>
     <tr>
-        <td><img src="/images/ct2.png"/></td>
-       	<td><img src="/images/ct1.png"/></td>
+        <td><img src="/images/ct2.jpeg"/></td>
     </tr>
 </table>
 
