@@ -7,9 +7,10 @@
 
 后台：http://45.32.156.166:1889/
 
-## 联系方式
+## 客服电报号
 
-mengtianya@gmail.com
+@CoinExPro1688
+@CoinExchange1688
 
 ## 整体架构
 
