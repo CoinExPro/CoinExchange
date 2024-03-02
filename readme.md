@@ -9,6 +9,8 @@
 后台账号：admin
 后台密码：admin123
 
+app下载链接：http://45.32.156.166:9000/coinexpro/app/v1.3.3.apk
+
 ## 客服电报号
 
 @CoinExPro1688
