@@ -4,10 +4,12 @@
 ## 在线体验地址
 
 前台：http://45.32.156.166:1888/
+前台账号：coinexpro@gmail.com   
+密码：123456qq
 
 后台：http://45.32.156.166:1889/
 后台账号：admin
-后台密码：admin123
+密码：admin123
 
 app下载链接：http://45.32.156.166:9000/coinexpro/app/v1.3.3.apk
 
