@@ -144,118 +144,26 @@ coin-cloud
     </tr>
 </table>
 
-### 2.4现货交易(白天黑夜)
+
+### 2.2行情
 
  <div align=left>
-    <td ><img height="" width="" src="/images/pc6.png"/></td>
-    <td ><img height="" width="" src="/images/pc5.png"/></td>
- </div>
-
-### 2.5U本位永续合约(白天黑夜)
-
- <div align=left>
-    <td ><img height="" width="" src="/images/pc7.png"/></td>
-     <td ><img height="" width="" src="/images/pc8.png"/></td>
- </div>
-
-### 2.6成为商家(白天黑夜)
-
- <div align=left>
-    <td ><img height="" width="" src="/images/pc9.png"/></td>
-         <td ><img height="" width="" src="/images/pc10.png"/></td>
- </div>
-
-### 2.7账户资产
-
- <div align=left>
-    <td ><img height="" width="" src="/images/pc8.jpg"/></td>
- </div>
-
-### 2.8币币交易
-
- <div align=left>
-    <td ><img height="" width="" src="/images/pc9.jpg"/></td>
- </div>
-
-### 2.9新手指南
-
- <div align=left>
-    <td ><img height="" width="" src="/images/pc10.jpg"/></td>
- </div>
-
-## 3.CoinExPro管理端界面展示
-
-### 3.1首页
-
- <div align=left>
-    <td ><img height="" width="" src="/images/gl1.jpg"/></td>
- </div>
-
-### 3.2用户列表
-
- <div align=left>
-    <td ><img height="" width="" src="/images/gl2.jpg"/></td>
- </div>
-
-### 3.3币种管理
-
- <div align=left>
-    <td ><img height="" width="" src="/images/gl4.jpg"/></td>
- </div>
-
-### 3.4财务管理-系统提现记录
-
- <div align=left>
-    <td ><img height="" width="" src="/images/gl5.jpg"/></td>
- </div>
-
-### 3.5财务管理-运营总览
-
- <div align=left>
-    <td ><img height="" width="" src="/images/gl6.jpg"/></td>
+    <td ><img height="" width="" src="/images/index-hq.png"/></td>
  </div>
 
 
+### 2.3 K线详情
 
-## 4.低代码开发平台
+ <div align=left>
+    <td ><img height="" width="" src="index-xq.png"/></td>
+ </div>
 
-**使用本系统的朋友们，在这里需要重点提及一下，在后台里的研发模块CoinExPro提供的一个低代码开发平台，旨在简化表单开发、表单设计，开发人员可专注于业务逻辑实现、提高开发效率。**
 
-### 4.1 online在线开发
+## 3.开源项目完整运行步骤
 
-**表单开发，其作用为在线生成表单，项目中所有涉及到的业务表的新增或修改需要在此菜单中统一进行**。并且代码中有提供专门的工具类操作数据库，参考以下步骤熟悉后可自由进行开发。
+### 3.1开源项目后端代码运行步骤
 
-<table>
-    <tr>
-        <td ><img src="/images/kf1.jpg"/></td>
-    </tr>
-    <tr>
-        <td ><img src="/images/kf2.jpg"/></td>
-    </tr>
-    <tr>
-        <td ><img src="/images/kf3.jpg"/></td>
-    </tr>
-    <tr>
-        <td ><img src="/images/kf4.jpg"/></td>
-</table>
-
-### 4.2 App在线开发
-
-研发模块中的表单设计：拖曳式快速生成App。
-
-示例图：
-
-<table>
-    <tr>
-        <td ><img src="/images/kf5.jpg"/></td>
-    </tr>
-</table>
-
-## 5.开源项目完整运行步骤
-
-### 5.1开源项目后端代码运行步骤
-
-#### 5.1.1环境配置
+#### 3.1.1环境配置
 
 **运行环境**：JDK1.8
 
@@ -265,7 +173,7 @@ coin-cloud
 
 如果觉得以上麻烦，推荐使用phpStudy简化环境配置：[phpstudy](https://www.xp.cn/)
 
-#### 5.1.2后端代码运行
+#### 3.1.2后端代码运行
 
 通过git拉取代码到本地后，项目结构如图：
 
@@ -332,9 +240,9 @@ coin-cloud
 
 至此，后端代码运行成功！
 
-### 5.2开源项目前端代码运行步骤
+### 3.2开源项目前端代码运行步骤
 
-#### 5.2.1项目前端App代码运行
+#### 3.2.1项目前端App代码运行
 
 **前台运行环境：** 无需配置node.js
 
@@ -376,7 +284,7 @@ coin-cloud
 
 
 
-#### 5.2.2项目前端后台代码运行
+#### 3.2.2项目前端后台代码运行
 
 **后台运行环境：** node12.13.0
 
@@ -406,7 +314,7 @@ coin-cloud
     </tr>
 </table>
 
-#### 5.2.3项目前端交易所pc界面
+#### 3.2.3项目前端交易所pc界面
 
 **后台运行环境：** node12.13.0
 
@@ -427,5 +335,3 @@ coin-cloud
         <td ><img src="/images/qd9.jpg"/></td>
     </tr>
 </table>
-
-## 加入我们
