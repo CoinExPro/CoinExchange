@@ -3,7 +3,9 @@ CoinExchange 数字货币交易所
 [![](https://img.shields.io/badge/数字货币-交易所-orange.svg)](http://coin-pc.mj.ink/)
 [![](https://img.shields.io/badge/BTC-交易所-blue.svg)](http://coin-pc.mj.ink/)
 [![](https://img.shields.io/badge/ETH-交易所-brightgreen.svg)](http://coin-pc.mj.ink/)
-
+[![](https://img.shields.io/badge/SpringCloud-2.2.9.RELEASE-orange.svg)](http://coin-pc.mj.ink/)
+[![](https://img.shields.io/badge/MySql-8.0-blue.svg)](http://coin-pc.mj.ink/)
+[![GitHub stars](https://img.shields.io/github/stars/CoinExPro/CoinExchange.svg?style=social&label=Stars)](https://github.com/CoinExPro/CoinExchange)
 ## 项目简介
 &emsp;&emsp;`一个专为数字货币爱好者打造的简洁而美观的交易平台。在这里，我们将为您呈现一个全新的数字货币交易体验，让您轻松掌握市场动态，把握投资机会。本git地址为交易所的开源代码地址。项目包括PC端和APP端以及后台管理端都有源码提供。欢迎使用!`
 
