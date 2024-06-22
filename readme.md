@@ -88,11 +88,6 @@ coin-cloud
     ├    ├── coin-system # 系统模块
     ├    ├── coin-user # 系统用户模块
 ```
-<table>
-    <tr>
-        <td><img src="/images/jgt.jpg"/></td>
-    </tr>
-</table>
 
 ## 1.App前台
 
