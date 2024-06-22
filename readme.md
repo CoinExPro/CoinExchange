@@ -25,22 +25,6 @@ CoinExchange 数字货币交易所
      密码：123456
 ```
 
-
-
-**
-
-客户端：**<br>
- &emsp;&emsp;&emsp;&emsp;PC访问地址：<a href='http://coin-pc.mj.ink/' target="_blank" >http://coin-pc.mj.ink </a>
- &emsp;&emsp;手机访问地址：<a href='http://coin-h5.mj.ink/' target="_blank" >http://coin-h5.mj.ink </a>　 
- <br>
- &emsp;&emsp;&emsp;&emsp;&emsp;账&emsp;&emsp;号：coinexpro@gmail.com  <br>
- &emsp;&emsp;&emsp;&emsp;&emsp;密&emsp;&emsp;码：123456qq  <br>
- &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;验证码：123456 <br/> <br>
-
-**管理端：**<br>
- &emsp;&emsp;&emsp;&emsp;访问地址：<a href='http://coin-ht.mj.ink/' target="_blank" >http://coin-ht.mj.ink </a>　 <br>
- &emsp;&emsp;&emsp;&emsp;账&emsp;&emsp;号：test   &emsp;&emsp;&emsp;&emsp;密&emsp;&emsp;码：12345  <br>
-
 ## 客服电报号
 
 
