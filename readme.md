@@ -13,7 +13,23 @@ CoinExchange 数字货币交易所
 &emsp;&emsp;`一个专为数字货币爱好者打造的简洁而美观的交易平台。在这里，我们将为您呈现一个全新的数字货币交易体验，让您轻松掌握市场动态，把握投资机会。本git地址为交易所的开源代码地址。项目包括PC端和APP端以及后台管理端都有源码提供。欢迎使用!`
 
 ## 在线体验地址
-**客户端：**<br>
+```
+客户端：
+     PC访问地址：http://coin-pc.mj.ink   手机访问地址：http://coin-h5.mj.ink
+     账号：coinexpro@gmail.com  
+     密码：123456qq
+     验证码：123456
+管理端：
+     访问地址：http://coin-ht.mj.ink 
+     账号：test  
+     密码：123456
+```
+
+
+
+**
+
+客户端：**<br>
  &emsp;&emsp;&emsp;&emsp;PC访问地址：<a href='http://coin-pc.mj.ink/' target="_blank" >http://coin-pc.mj.ink </a>
  &emsp;&emsp;手机访问地址：<a href='http://coin-h5.mj.ink/' target="_blank" >http://coin-h5.mj.ink </a>　 
  <br>
@@ -27,9 +43,8 @@ CoinExchange 数字货币交易所
 
 ## 客服电报号
 
-@CoinExPro1688
 
-@CoinExchange1688
+客服Telegram:<a data-v-e7c4da1a="" href="https://t.me/CoinExPro1688" target="_blank" style="color: rgb(0, 0, 255);">@CoinExPro1688</a>（点击@跳转 唯一渠道，谨防被骗）
 
 ## 整体架构
 
@@ -155,7 +170,7 @@ coin-cloud
 ### 2.3 K线详情
 
  <div align=left>
-    <td ><img height="" width="" src="index-xq.png"/></td>
+    <td ><img height="" width="" src="/images/index-xq.png"/></td>
  </div>
 
 
