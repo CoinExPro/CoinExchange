@@ -134,13 +134,13 @@ coin-cloud
 
 <table>
     <tr>
-        <td><img src="/images/ct1.jpeg"/></td>
+        <td><img src="/images/index-bt.png"/></td>
     </tr>
 </table>
 
 <table>
     <tr>
-        <td><img src="/images/ct2.jpeg"/></td>
+        <td><img src="/images/index-hy.png"/></td>
     </tr>
 </table>
 
