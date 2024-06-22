@@ -5,6 +5,7 @@ CoinExchange 数字货币交易所
 [![](https://img.shields.io/badge/ETH-交易所-brightgreen.svg)](http://coin-pc.mj.ink/)
 [![](https://img.shields.io/badge/SpringCloud-2.2.9.RELEASE-orange.svg)](http://coin-pc.mj.ink/)
 [![](https://img.shields.io/badge/MySql-8.0-blue.svg)](http://coin-pc.mj.ink/)
+[![](https://img.shields.io/badge/Nacos-2.0.3-brightgreen.svg)](http://coin-pc.mj.ink/)
 [![GitHub stars](https://img.shields.io/github/stars/CoinExPro/CoinExchange.svg?style=social&label=Stars)](https://github.com/CoinExPro/CoinExchange)
 
 ## 项目简介
