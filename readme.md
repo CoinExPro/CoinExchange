@@ -16,12 +16,12 @@ CoinExchange 数字货币交易所
 ## 在线体验地址
 ```
 客户端：
-     PC访问地址：http://coin-pc.mj.ink   手机访问地址：http://coin-h5.mj.ink
+     PC访问地址：http://149.28.222.107:9200   手机访问地址：http://149.28.222.107:9204
      账号：coinexpro@gmail.com  
      密码：123456qq
      验证码：123456
 管理端：
-     访问地址：http://coin-ht.mj.ink 
+     访问地址：149.28.222.107:9201
      账号：test  
      密码：123456
 ```
