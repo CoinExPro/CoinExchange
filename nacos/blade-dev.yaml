@@ -6,7 +6,7 @@ spring:
   redis:
     ##redis 单机环境配置
     host: 127.0.0.1
-    port: 16379
+    port: 6379
     password: xxx
     database: 0
     ssl: false

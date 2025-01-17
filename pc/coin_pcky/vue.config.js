@@ -12,7 +12,7 @@ if (process.env.NODE_ENV === 'production') {
       warnings: false,
       compress: {
         drop_console: true,
-        drop_debugger: true, 
+        drop_debugger: true,
         pure_funcs: ["console.log"]
       }
     }
@@ -55,7 +55,7 @@ module.exports = {
     port: 1890,
     proxy: {
       '/api': {
-        target: 'http://192.168.5.30:9851', 
+        target: 'http://127.0.0.1:9851',
         ws: true,
         pathRewrite: {
           '^/api': '/'

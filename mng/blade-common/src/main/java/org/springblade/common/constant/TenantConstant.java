@@ -60,7 +60,7 @@ public interface TenantConstant {
 	 * 租户默认菜单集合
 	 */
 	List<String> MENU_CODES = Arrays.asList(
-		"desk", "flow", "work", "monitor", "resource", "role", "user", "dept", "dictbiz", "topmenu"
+		"desk", "work", "monitor", "resource", "role", "user", "dept", "dictbiz", "topmenu"
 	);
 
 }
