@@ -256,10 +256,6 @@ binance_coin/
       <a href="https://t.me/BITCOIN1688" target="_blank">Telegram 고객센터</a><br/>
       <img alt="Telegram 고객센터" src="./img/tg.png" width="180" style="border: 1px solid #e5e7eb; border-radius: 10px; padding: 2px;" />
     </td>
-    <td align="center" valign="top">
-      <a href="https://t.me/bitcoin5201688" target="_blank">Telegram 그룹</a><br/>
-      <img alt="Telegram 그룹" src="./img/tg_group.png" width="180" style="border: 1px solid #e5e7eb; border-radius: 10px; padding: 2px;" />
-    </td>
   </tr>
 </table>
 

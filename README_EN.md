@@ -256,10 +256,6 @@ For **full source licensing, custom development, and deployment**, contact us vi
       <a href="https://t.me/BITCOIN1688" target="_blank">Telegram Support</a><br/>
       <img alt="Telegram support" src="./img/tg.png" width="180" style="border: 1px solid #e5e7eb; border-radius: 10px; padding: 2px;" />
     </td>
-    <td align="center" valign="top">
-      <a href="https://t.me/bitcoin5201688" target="_blank">Telegram Group</a><br/>
-      <img alt="Telegram group" src="./img/tg_group.png" width="180" style="border: 1px solid #e5e7eb; border-radius: 10px; padding: 2px;" />
-    </td>
   </tr>
 </table>
 
