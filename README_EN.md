@@ -23,6 +23,10 @@
   Supports spot, margin, USDT-margined / coin-margined futures, deposit & withdrawal, transfers, real-time quotes, and K-line charts. Try the live demo — contact us for source code and deployment.
 </p>
 
+<p align="center">
+  <img alt="banner" src="./img/en_banner.png" width="100%">
+</p>
+
 ---
 
 ## Live Demo

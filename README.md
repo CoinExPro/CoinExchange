@@ -23,6 +23,10 @@
   支持现货、杠杆、U 本位/币本位合约、充提划转、实时行情与 K 线。欢迎在线体验，源码与部署请咨询客服。
 </p>
 
+<p align="center">
+  <img alt="banner" src="./img/banner.png" width="100%">
+</p>
+
 ---
 
 ## 在线演示
