@@ -41,8 +41,7 @@
 |--------------|----------|------------|
 | `111@gmail.com` | `111111` | `123456` |
 
-> Demo environment is for feature preview only. Data may be reset periodically. Do not use for real assets.  
-> <font color="red">**Demo available hours:** 20:00 - 23:00 (Beijing Time, UTC+8). Contact us to schedule a session at other times.</font>
+> Demo environment is for feature preview only. Data may be reset periodically. Do not use for real assets.
 
 ---
 
