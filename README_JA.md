@@ -34,7 +34,7 @@
 | 端末 | URL | 説明 |
 |------|-----|------|
 | **App H5** | [http://app.coin.vexcoin.top](http://app.coin.vexcoin.top) | モバイルブラウザ体験 |
-| **Android App** | [ダウンロード](https://wwanb.lanzoum.com/i8ojx3sn375a)、パスワード: `as9p` | Android APK ダウンロード |
+| **Android App** | [APK ダウンロード](http://oss.coin.vexcoin.top/coin/app/bitcoin.apk) | Android APK ダウンロード |
 | **PC Web** | [http://pc.coin.vexcoin.top](http://pc.coin.vexcoin.top) | デスクトップ取引ワークスペース |
 
 | デモアカウント | パスワード | メール認証コード |
