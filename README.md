@@ -33,9 +33,9 @@
 
 | 端 | 地址 | 说明 |
 |----|------|------|
-| **App H5** | [http://45.76.150.181:8092/](http://45.76.150.181:8092/) | 移动端浏览器体验 |
+| **App H5** | [http://app.coin.vexcoin.top](http://app.coin.vexcoin.top) | 移动端浏览器体验 |
 | **Android App** | [蓝奏云下载](https://wwanb.lanzoum.com/i8ojx3sn375a)，密码: `as9p` | 安卓安装包下载 |
-| **PC Web** | [http://45.76.150.181:8091/](http://45.76.150.181:8091/) | 桌面端完整交易工作区 |
+| **PC Web** | [http://pc.coin.vexcoin.top](http://pc.coin.vexcoin.top) | 桌面端完整交易工作区 |
 
 | 演示账号 | 密码 | 邮箱验证码 |
 |----------|------|------------|

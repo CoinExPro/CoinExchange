@@ -33,9 +33,9 @@
 
 | 端末 | URL | 説明 |
 |------|-----|------|
-| **App H5** | [http://45.76.150.181:8092/](http://45.76.150.181:8092/) | モバイルブラウザ体験 |
+| **App H5** | [http://app.coin.vexcoin.top](http://app.coin.vexcoin.top) | モバイルブラウザ体験 |
 | **Android App** | [ダウンロード](https://wwanb.lanzoum.com/i8ojx3sn375a)、パスワード: `as9p` | Android APK ダウンロード |
-| **PC Web** | [http://45.76.150.181:8091/](http://45.76.150.181:8091/) | デスクトップ取引ワークスペース |
+| **PC Web** | [http://pc.coin.vexcoin.top](http://pc.coin.vexcoin.top) | デスクトップ取引ワークスペース |
 
 | デモアカウント | パスワード | メール認証コード |
 |----------------|------------|------------------|

@@ -33,9 +33,9 @@
 
 | Platform | URL | Description |
 |----------|-----|-------------|
-| **App H5** | [http://45.76.150.181:8092/](http://45.76.150.181:8092/) | Mobile browser experience |
+| **App H5** | [http://app.coin.vexcoin.top](http://app.coin.vexcoin.top) | Mobile browser experience |
 | **Android App** | [Download](https://wwanb.lanzoum.com/i8ojx3sn375a), Password: `as9p` | Android APK download |
-| **PC Web** | [http://45.76.150.181:8091/](http://45.76.150.181:8091/) | Full desktop trading workspace |
+| **PC Web** | [http://pc.coin.vexcoin.top](http://pc.coin.vexcoin.top) | Full desktop trading workspace |
 
 | Demo Account | Password | Email Code |
 |--------------|----------|------------|
