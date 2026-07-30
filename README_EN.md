@@ -41,7 +41,8 @@
 |--------------|----------|------------|
 | `111@gmail.com` | `111111` | `123456` |
 
-> Demo environment is for feature preview only. Data may be reset periodically. Do not use for real assets.
+> Demo environment is for feature preview only. Data may be reset periodically. Do not use for real assets.  
+> The demo server has limited resources, so access and order placement may be a bit slow — thanks for your understanding.
 
 ---
 
