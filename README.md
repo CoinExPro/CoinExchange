@@ -34,7 +34,7 @@
 | 端 | 地址 | 说明 |
 |----|------|------|
 | **App H5** | [http://app.coin.vexcoin.top](http://app.coin.vexcoin.top) | 移动端浏览器体验 |
-| **Android App** | [下载 APK](http://oss.coin.vexcoin.top/coin/app/bitcoin.apk) | 安卓安装包下载 |
+| **Android App** | http://oss.coin.vexcoin.top/coin/app/bitcoin.apk | 安卓安装包下载 |
 | **PC Web** | [http://pc.coin.vexcoin.top](http://pc.coin.vexcoin.top) | 桌面端完整交易工作区 |
 
 | 演示账号 | 密码 | 邮箱验证码 |

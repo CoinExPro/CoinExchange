@@ -34,7 +34,7 @@
 | Platform | URL | Description |
 |----------|-----|-------------|
 | **App H5** | [http://app.coin.vexcoin.top](http://app.coin.vexcoin.top) | Mobile browser experience |
-| **Android App** | [Download APK](http://oss.coin.vexcoin.top/coin/app/bitcoin.apk) | Android APK download |
+| **Android App** | http://oss.coin.vexcoin.top/coin/app/bitcoin.apk | Android APK download |
 | **PC Web** | [http://pc.coin.vexcoin.top](http://pc.coin.vexcoin.top) | Full desktop trading workspace |
 
 | Demo Account | Password | Email Code |
